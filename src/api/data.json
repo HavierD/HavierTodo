@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "type": "PROBLEM",
+      "title": "Sum of two numbers",
+      "description": "Given two integers a and b, find their sum",
+      "parentId": null,
+      "childId": [2,3]
+    },
+    {
+      "id": 2,
+      "type": "STEP",
+      "title": "Step 1",
+      "description": "Declare a variable to store the sum of two numbers",
+      "parentId": 1,
+      "childId": []
+    },
+    {
+      "id": 3,
+      "type": "STEP",
+      "title": "Step 2",
+      "description": "Add the two numbers and store the result in the variable",
+      "parentId": 1,
+      "childId": [4]
+    },
+    {
+      "id": 4,
+      "type": "HINT",
+      "title": "Hint 1",
+      "description": "You can use the '+' operator to add two numbers",
+      "parentId": 3,
+      "childId": []
+    },
+    {
+      "id": 5,
+      "type": "PROBLEM",
+      "title": "Multiply two numbers",
+      "description": "Given two integers a and b, find their product",
+      "parentId": null,
+      "childId": [6,7]
+    }
+  ]
+  
